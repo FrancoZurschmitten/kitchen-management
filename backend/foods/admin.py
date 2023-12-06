@@ -1,4 +1,5 @@
 from django.contrib import admin
-from .models import Vegetable, Carbohydrate, Protein, Fruit
+from .models import Food
 
-admin.site.register([Vegetable, Carbohydrate, Protein, Fruit])
+
+admin.site.register([Food])
