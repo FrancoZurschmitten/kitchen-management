@@ -14,3 +14,15 @@ class FoodBaseAbstract(models.Model):
 
 class Vegetable(FoodBaseAbstract):
     pass
+
+
+class Protein(FoodBaseAbstract):
+    pass
+
+
+class Carbohydrate(FoodBaseAbstract):
+    pass
+
+
+class Fruit(FoodBaseAbstract):
+    pass
